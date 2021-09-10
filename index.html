@@ -1,31 +1,60 @@
 <!DOCTYPE html>
 <html lang='en'>
-<head>
-    <meta charset='UTF-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <link rel='stylesheet' href='main.css'>
-    <title>Document</title>
-</head>
-<body>
-    <div id='container'>
-        <button>AC</button>
-        <button>/</button>
-        <button>X</button>
-        <button>-</button>
-        <button>+</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>0</button>
-        <button>=</button>
-    </div>
-    <script src='calc.js'></script>
-</body>
+    <head>
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel='stylesheet' href='main.css'>
+        <title>Document</title>
+    </head>
+    <body>
+
+    <!-- Calc header -->
+        <div id='calculator'>
+
+            <div id='calc-header'>
+                <div id='left-side-header'>
+                    <div><span>VINH-IO</span></div>
+                    <div><span>fx-420BS PRO</span></div>
+                </div>
+
+                <div id='right-side-header'>
+                    <!-- Psuedo solar panels -->
+                    <div class='panel'></div> 
+                    <div class='panel'></div>
+                    <div class='panel'></div>
+                    <div class='panel'></div>
+                </div>
+            </div>
+
+        <!-- Calc Display -->
+            <div id='screen'>
+                <span>Place-holder Numbers</span>
+            </div>
+
+        <!-- Calc buttons -->
+        
+            <div id='button-container'>
+                <button>AC</button>
+                <button>+</button>
+                <button>-</button>
+                <button>X</button>
+                <button></button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>0</button>
+                <button>=</button>
+                <button>ON</button>
+                <button>.</button>
+            </div>
+        </div>
+        <script src='calc.js'></script>
+    </body>
 </html>
