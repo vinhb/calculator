@@ -105,7 +105,9 @@ body {
 }
 
 button {
-    background-color: rgba(240, 234, 214, 0.9)
+    background-color: rgba(240, 234, 214, 0.9);
+    border-radius: 3%;
+    border: solid rgba(240, 234, 214, 0.9);
 }
 
     .key[data-button-type='0']{
@@ -114,11 +116,13 @@ button {
 
     .key[data-button-type='on']{
         background-color: rgba(207, 20, 20, 0.9);
-        border: solid rgba(0, 0, 0, 0.9);
+        border: solid rgba(207, 20, 20, 0.9);
         border-radius: 3%;
 
     }
 
     .operator {
-        background-color: orange;
+        background-color: rgba(255, 153, 0, 0.9);
+        border-radius: 3%;
+        border: solid rgba(255, 153, 0, 0.9);
     }
